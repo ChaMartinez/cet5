@@ -260,7 +260,7 @@ h4 {
     transform: translateY(-.5rem);
 }
 
-/* LASTEST PRODUCTS */
+/* LATEST PRODUCTS */
 
 small {
     font-family: "EBGaramondItalic";
@@ -761,4 +761,54 @@ form a {
     .account .col-2:first-child {
         display: none;
     }
+}
+
+/*                  CART PAGE             */
+
+.cart-page{
+    margin:80px auto;
+}
+
+table{
+    width:100%
+    border-collapse: collapse;
+}
+
+.cart-info{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+th{
+    text-align:left;
+    padding: 5px;
+    color:#000;
+    background:#CC90DD;
+    font-weight:normal;
+}
+
+td{
+    padding: 10px 5px;
+}
+td input{
+    padding: 5px;
+    width: 40px;
+    height: 30px;
+}
+
+td a{
+    color:#CC90DD;
+    font-size: 12px;
+}
+
+.item1{
+    width: 50px;
+    height:50px;
+    margin-right: 10px;
+}
+
+.item2{
+    width: 40px;
+    height:50px;
+    margin-right: 10px;
 }
